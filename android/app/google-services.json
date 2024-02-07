@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "500408481133",
+    "project_id": "airbnb-template-22d40",
+    "storage_bucket": "airbnb-template-22d40.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500408481133:android:7c37aadb5222de3ffed664",
+        "android_client_info": {
+          "package_name": "com.nodev.airbnbtemplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zvrzL5laP6TEil-IefpY7Djy_Hj-5IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
