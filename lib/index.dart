@@ -8,10 +8,10 @@ export '/menu_screen/menu_screen_widget.dart' show MenuScreenWidget;
 export '/house/house_edit/house_edit_widget.dart' show HouseEditWidget;
 export '/house/house_map/house_map_widget.dart' show HouseMapWidget;
 export '/house/house_view/house_view_widget.dart' show HouseViewWidget;
-export '/orders/house_reservation/house_reservation_widget.dart'
+export '/house/house_reservation/house_reservation_widget.dart'
     show HouseReservationWidget;
 export '/house/house_my_list/house_my_list_widget.dart' show HouseMyListWidget;
-export '/orders/house_reservation_list/house_reservation_list_widget.dart'
+export '/house/house_reservation_list/house_reservation_list_widget.dart'
     show HouseReservationListWidget;
 export '/orders/payment_success/payment_success_widget.dart'
     show PaymentSuccessWidget;

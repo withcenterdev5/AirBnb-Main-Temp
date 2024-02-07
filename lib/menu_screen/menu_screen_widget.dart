@@ -60,7 +60,7 @@ class _MenuScreenWidgetState extends State<MenuScreenWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           automaticallyImplyLeading: false,
           title: Text(
-            'airbnbmaintemplate://airbnbmaintemplate.com${GoRouter.of(context).location}',
+            '메뉴',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: FlutterFlowTheme.of(context).primaryText,
@@ -285,6 +285,35 @@ class _MenuScreenWidgetState extends State<MenuScreenWidget> {
                       height: 64.0,
                       thickness: 1.0,
                       color: FlutterFlowTheme.of(context).lineColor,
+                    ),
+                    InkWell(
+                      splashColor: Colors.transparent,
+                      focusColor: Colors.transparent,
+                      hoverColor: Colors.transparent,
+                      highlightColor: Colors.transparent,
+                      onTap: () async {
+                        context.pushNamed('ProfileScreen');
+                      },
+                      child: ListTile(
+                        leading: const Icon(
+                          Icons.person_outline_outlined,
+                        ),
+                        title: Text(
+                          '앱 다운로드',
+                          style: FlutterFlowTheme.of(context).titleLarge,
+                        ),
+                        subtitle: Text(
+                          ' Github에서 직접 앱 다운로드',
+                          style: FlutterFlowTheme.of(context).labelSmall,
+                        ),
+                        trailing: Icon(
+                          Icons.arrow_forward_ios,
+                          color: FlutterFlowTheme.of(context).secondaryText,
+                          size: 20.0,
+                        ),
+                        tileColor: Colors.transparent,
+                        dense: false,
+                      ),
                     ),
                     InkWell(
                       splashColor: Colors.transparent,
