@@ -60,7 +60,7 @@ class _MenuScreenWidgetState extends State<MenuScreenWidget> {
           backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
           automaticallyImplyLeading: false,
           title: Text(
-            '메뉴',
+            'airbnbmaintemplate://airbnbmaintemplate.com${GoRouter.of(context).location}',
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: FlutterFlowTheme.of(context).primaryText,

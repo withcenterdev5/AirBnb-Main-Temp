@@ -338,12 +338,3 @@ int getPrice(
   final nights = checkOutDate.difference(checkInDate).inDays;
   return price * nights;
 }
-
-String getPayPalUrl(
-  String totalPrice,
-  String reservationUid,
-) {
-  String emailAddress = "sb-ozknr29076923@business.example.com";
-  String domain = "https://nodev-khomes.flutterflow.app";
-  return "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_xclick&business=$emailAddress&currency_code=USD&item_name=Products&amount=$totalPrice&&return=$domain/paymentSuccess/${reservationUid}&cancel_return=$domain/paymentCancel";
-}

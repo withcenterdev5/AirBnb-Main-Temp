@@ -7,12 +7,25 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:500408481133:android:7c37aadb5222de3ffed664",
+        "mobilesdk_app_id": "1:500408481133:android:7469a2c52ee16e4ffed664",
         "android_client_info": {
-          "package_name": "com.nodev.airbnbtemplate"
+          "package_name": "com.mycompany.airbnb4"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "500408481133-8ktt10olg23ioujjoa9h2r3f8g4lngnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.airbnb4",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "500408481133-i1hstg3ukj39fiai3dfvhdg7pgjl4jiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA_zvrzL5laP6TEil-IefpY7Djy_Hj-5IY"
@@ -20,7 +33,107 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500408481133-i1hstg3ukj39fiai3dfvhdg7pgjl4jiu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500408481133-5lfa1t6i41mkjadnkrie1pa36maolelk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nodev.khouse"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500408481133:android:7c37aadb5222de3ffed664",
+        "android_client_info": {
+          "package_name": "com.nodev.airbnbtemplate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500408481133-5i162ciijd5rt409imi349j5roa0tqjs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nodev.airbnbtemplate",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "500408481133-i1hstg3ukj39fiai3dfvhdg7pgjl4jiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zvrzL5laP6TEil-IefpY7Djy_Hj-5IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500408481133-i1hstg3ukj39fiai3dfvhdg7pgjl4jiu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500408481133-5lfa1t6i41mkjadnkrie1pa36maolelk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nodev.khouse"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500408481133:android:3efe618c4bd2edf7fed664",
+        "android_client_info": {
+          "package_name": "com.nodev.khouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500408481133-73hu0alikb5ig1vbhe1hprdv2pclalj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nodev.khouse",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "500408481133-i1hstg3ukj39fiai3dfvhdg7pgjl4jiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_zvrzL5laP6TEil-IefpY7Djy_Hj-5IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500408481133-i1hstg3ukj39fiai3dfvhdg7pgjl4jiu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "500408481133-5lfa1t6i41mkjadnkrie1pa36maolelk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nodev.khouse"
+              }
+            }
+          ]
         }
       }
     }

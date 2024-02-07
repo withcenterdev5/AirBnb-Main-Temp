@@ -2,7 +2,7 @@ import '/backend/backend.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
-import '/flutter_flow/custom_functions.dart' as functions;
+import '/custom_code/actions/index.dart' as actions;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'house_list_tile_model.dart';
@@ -153,17 +153,22 @@ class _HouseListTileWidgetState extends State<HouseListTileWidget> {
                               style: FlutterFlowTheme.of(context).labelSmall,
                             ),
                           ),
-                          if (widget.displayPaymentButton)
+                          if (widget.displayPaymentButton &&
+                              !widget.reservationDocument!.hasPaid)
                             Padding(
                               padding: const EdgeInsetsDirectional.fromSTEB(
                                   0.0, 16.0, 0.0, 0.0),
                               child: FFButtonWidget(
                                 onPressed: () async {
-                                  await launchURL(functions.getPayPalUrl(
-                                      widget.reservationDocument!.price
-                                          .toString(),
-                                      widget
-                                          .reservationDocument!.reference.id));
+                                  _model.payPalUrl =
+                                      await actions.getPayPalUrl1(
+                                    widget.reservationDocument!.price
+                                        .toString(),
+                                    widget.reservationDocument!.reference.id,
+                                  );
+                                  await launchURL(_model.payPalUrl!);
+
+                                  setState(() {});
                                 },
                                 text: '지금 지불하세요',
                                 icon: Icon(
